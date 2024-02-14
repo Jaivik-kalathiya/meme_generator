@@ -50,7 +50,12 @@ const [meme,setmeme] = React.useState({
             Get a new meme image 🖼
           </button>
         </form>
-        <img src={meme.imgurl} className="meme--image" />
+        <div className="meme"> 
+          <img src={meme.imgurl} className="meme--image" />
+          <h2 className="--top-text top">Top text</h2>
+          <h2 className="--bottom-text bottom">Bottom text</h2>
+        </div>
+       
       </main>
     
       

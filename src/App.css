@@ -67,6 +67,10 @@ main {
 .form--button:hover{
     background:linear-gradient(90.41deg, #7e488f 1.14%, #c951f1 100%);
 }
+.meme{
+    position: relative;
+}
+
 .meme--image{
     margin-top:8rem;
     margin-left: auto;
